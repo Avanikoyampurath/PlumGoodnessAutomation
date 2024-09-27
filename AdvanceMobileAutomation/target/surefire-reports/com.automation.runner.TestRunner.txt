@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: com.automation.runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 140.84 s <<< FAILURE! - in com.automation.runner.TestRunner
+validate add to cart functionality.verify user can search a product and add it to cart  Time elapsed: 53.042 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element 'By.xpath: //android.widget.ImageView[@content-desc='FILTERS']/../android.view.View/android.view.View/android.view.View[1]' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [2e13914f-8624-4c4e-9060-7e2ccfe7a71c, isElementDisplayed {id=00000000-0000-0965-0000-00c200000003}]
+Capabilities {appium:app: C:\Users\280665\Downloads\P..., appium:appActivity: com.esmagico.plum.MainActivity, appium:appPackage: com.esmagico.plum, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\280665\Downloads\P..., appActivity: com.esmagico.plum.MainActivity, appPackage: com.esmagico.plum, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: 217594ec, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: EB2101, appium:deviceName: 72a4d4f7, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 72a4d4f7, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 115, appium:takesScreenshot: true, appium:viewportRect: {height: 2285, left: 0, top: 115, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (2e13914f-8624-4c4e-9060-7e2ccfe7a71c)] -> xpath: //android.widget.ImageView[@content-desc='FILTERS']/../android.view.View/android.view.View/android.view.View[1]]
+Session ID: 2e13914f-8624-4c4e-9060-7e2ccfe7a71c
+
+validate remove from cart functionality.verify user can remove a product that has been added in the cart  Time elapsed: 42.858 s  <<< ERROR!
+org.openqa.selenium.StaleElementReferenceException: 
+The element 'By.xpath: //android.view.View[@content-desc='sunscreen']' does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.1'
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [8b5c2915-0f48-4bfa-8067-050c38353ebd, isElementDisplayed {id=00000000-0000-0978-0000-006200000003}]
+Capabilities {appium:app: C:\Users\280665\Downloads\P..., appium:appActivity: com.esmagico.plum.MainActivity, appium:appPackage: com.esmagico.plum, appium:autoGrantPermissions: true, appium:automationName: UiAutomator2, appium:databaseEnabled: false, appium:desired: {app: C:\Users\280665\Downloads\P..., appActivity: com.esmagico.plum.MainActivity, appPackage: com.esmagico.plum, autoGrantPermissions: true, automationName: UiAutomator2, deviceName: 217594ec, platformName: ANDROID}, appium:deviceApiLevel: 33, appium:deviceManufacturer: OnePlus, appium:deviceModel: EB2101, appium:deviceName: 72a4d4f7, appium:deviceScreenDensity: 480, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: 72a4d4f7, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:networkConnectionEnabled: true, appium:pixelRatio: 3, appium:platformVersion: 13, appium:statBarHeight: 115, appium:takesScreenshot: true, appium:viewportRect: {height: 2285, left: 0, top: 115, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (8b5c2915-0f48-4bfa-8067-050c38353ebd)] -> xpath: //android.view.View[@content-desc='sunscreen']]
+Session ID: 8b5c2915-0f48-4bfa-8067-050c38353ebd
+
